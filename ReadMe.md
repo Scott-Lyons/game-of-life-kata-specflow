@@ -1,8 +1,8 @@
-##About this Kata
+## About this Kata
 This kata is using the Game Of Life kata as a base already solved but with no tests. The intention is to use SpecFlow to understandable tests around the Cells endpoint. 
 
 
-##Example request body (json):
+## Example request body (json):
 
 ```JavaScript
 [
@@ -12,7 +12,7 @@ This kata is using the Game Of Life kata as a base already solved but with no te
 ]
 ```
 
-##Problem Description
+## Problem Description
 
 This Kata is about calculating the next generation of Conway's game of life, given any starting position. See http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life for background.
 
@@ -25,7 +25,7 @@ You start with a two dimensional grid of cells, where each cell is either alive 
 
 You should write a program that can accept an arbitrary grid of cells, and will output a similar grid showing the next generation.
 
-###Clues
+### Clues
 
 The input starting position could be a text file that looks like this:
 
